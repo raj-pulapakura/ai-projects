@@ -1,0 +1,85 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+.env/
+.env
+.envrc
+.python-version
+
+# Build/packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+htmlcov/
+coverage.xml
+
+# Type checkers and linters
+.mypy_cache/
+.pytype/
+.pyright/
+.ruff_cache/
+
+# Tox
+.tox/
+
+# Logs and profiles
+*.log
+logs/
+profiling/
+.prof
+.profraw
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+.history/
+*.swp
+*.swo
+
+# MLflow artifacts and runs
+mlruns/
+mlartifacts/
+src/mlruns/
+
+# Data artifacts (optional; comment out if you want to track)
+# data/
+# datasets/
+
+# Notebooks outputs (optional; uncomment to strip large outputs repo-wide)
+# **/*.nbconvert.ipynb
+# **/*-checkpoint.ipynb
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Node (if present)
+node_modules/
+
